@@ -4,7 +4,7 @@ go 1.23.3
 
 // forked go-yaml that introduces RawYAML interface, which can be used to populate YAML fields using bytes
 // which are then encoded as a valid YAML blocks with proper indentiation
-replace gopkg.in/yaml.v3 => github.com/unix4ever/yaml v0.0.0-20220527175918-f17b0f05cf2c
+replace gopkg.in/yaml.v3 => github.com/unix4ever/yaml/v2 v2.4.0
 
 require (
 	github.com/blang/semver/v4 v4.0.0
@@ -18,12 +18,12 @@ require (
 	github.com/google/cel-go v0.22.1
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hexops/gotextdiff v1.0.3
-	github.com/jsimonetti/rtnetlink/v2 v2.0.3-0.20241216183107-2d6e9f8ad3f2
+	github.com/jsimonetti/rtnetlink/v2 d045a249b7c2
 	github.com/mdlayher/ethtool v0.2.0
 	github.com/opencontainers/runtime-spec v1.2.0
 	github.com/planetscale/vtprotobuf v0.6.1-0.20241121165744-79df5c4772f2
 	github.com/ryanuber/go-glob v1.0.0
-	github.com/santhosh-tekuri/jsonschema/v5 v5.3.1
+	github.com/santhosh-tekuri/jsonschema/v6 v6.0.1
 	github.com/siderolabs/crypto v0.5.1
 	github.com/siderolabs/gen v0.8.0
 	github.com/siderolabs/go-api-signature v0.3.6
